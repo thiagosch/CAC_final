@@ -14,7 +14,7 @@
   - [![nombre_placeholder](https://img.shields.io/badge/integrante-nombre_placeholder-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
   
   
-<details>
+
 <summary> <h2> Website </h2> </summary>
 
 <!-- https://websitemockupgenerator.com/ -->
