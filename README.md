@@ -8,10 +8,10 @@
 
 ## Integrantes
 
-  - [![nombre_placeholder](https://img.shields.io/badge/integrante-nombre_placeholder-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
-  - [![nombre_placeholder](https://img.shields.io/badge/integrante-nombre_placeholder-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
-  - [![nombre_placeholder](https://img.shields.io/badge/integrante-nombre_placeholder-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
-  - [![nombre_placeholder](https://img.shields.io/badge/integrante-nombre_placeholder-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
+  - [![Nicolas_Palermo](https://img.shields.io/badge/integrante-Nicolas_Palermo-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
+  - [![Palacios_Alejandro](https://img.shields.io/badge/integrante-Palacios_Alejandro-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
+  - [![Mariela_Valinoti](https://img.shields.io/badge/integrante-Mariela_Valinoti-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
+  - [![Amerio_Santiago](https://img.shields.io/badge/integrante-Amerio_Santiago-a227cd?style=for-the-badge)![](https://img.shields.io/badge/-github/username_placeholder-blue?style=for-the-badge)](https://github.com/username_placeholder)
   
   
 
