@@ -1,52 +1,21 @@
+@import "sections/welcome_box.css";
+@import "sections/contacto.css";
+@import "sections/footer.css";
+@import "sections/nav.css";
+@import "sections/nosotros.css";
+@import "sections/praise.css";
+@import "sections/servicios.css";
+
 * {
     margin: 0;
     padding: 0;
 }
 
-nav {
-    background-color: #1a3749;
-    position: relative;
-}
-
-.navbar {
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-
-
-
-#navegacion {
-    background-color: #1a3749;
-    position: absolute;
-    right: 0.8rem;
-    bottom: 50%;
-    transform: translate(0, 50%);
-}
-
-#navegacion a {
-    padding: 0.3rem 0.5rem;
-    color:hsl(0, 5%, 92%);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#welcome-box {
-    background: linear-gradient(180deg, #1a3749 25%, #e37667 100%);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto;
-    background-size: 200% 200%;
-    color: white;
-    font-weight: bold;
+.primary_section {
+    background-color: rgb(237, 242, 242);
     padding: 1rem;
 }
-#welcome-box p {
-    margin-bottom: 1rem;
-    /* background-color: rgba(255, 255, 255, 0.209); */
+main > :nth-child(odd) {
+    background-color: #516774;
+    color: white;
 }
-
-
-
