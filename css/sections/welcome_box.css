@@ -25,31 +25,18 @@
 
 @media (min-width: 768px) {
     #welcome-box {
-        display: grid;
-        justify-items: center;
-        align-items: center;
-        padding: 0 10%;
+
     }
     #primary_welcome {
-        grid-column-start: 1;
-        grid-row-start: 1;
+
     }
     #secondary_welcome {
-        grid-column-start: 1;
-        grid-row-start: 2;
+    
     }
     #image_welcome {
-        grid-column-start: 2;
-        grid-row-end: 3;
-        grid-row-start: 1;
+ 
     }
     #tertiary_welcome {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 3;
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 5%;
+
     }
 }
