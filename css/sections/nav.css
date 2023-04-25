@@ -1,3 +1,5 @@
+
+
 nav {
     background-color: #1a3749;
     position: relative;
@@ -20,21 +22,77 @@ nav {
     cursor: pointer;
 }
 
+
+.nav-link-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link-animation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleY(0);
+
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.164);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link-animation:hover::after {
+    transform: scaleY(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+
 @media (max-width: 768px) {
+    .navbar {
+        position: sticky;
+    }
     #navegacion-opciones {
-        display: none;
-        width: 100%;
+        transition: right .6s ease-in-out;
+        display: flex;
+        min-width: max-content;
+        padding: 1rem;
+        padding-top: 5rem;
         position: fixed;
         top: 0;
-        right: 0;
-        left: 0;
+        right: -100%;
         bottom: 0;
-        background-color: #1a3749;
-        overflow: auto;
+        gap: 2rem;
+        background-color: #1a3749f4;
         align-items: center;
-        justify-content: center;
         flex-direction: column;
         text-align: center;
+    }
+    .a_nav {
+        background: rgb(197, 197, 197);
+        color: #1a3749;
+        width: 100%;
+    }
+    #close-nav {
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        transition: background-color 1s;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #close-nav.active {
+        pointer-events: initial;
+        /* display: none; */
+      
+        background: #1a37496f;
+    }
+    #navegacion-opciones.active {
+        right: 0;
     }
     #burger-menu {
         color: #f5f5f5;
@@ -56,5 +114,17 @@ nav {
     }
     #burger-menu {
         display: none;
+    }
+    .navbar.status1 {
+        position: relative;
+        opacity: 1;
+        transition-duration: 0s;
+    }
+    .navbar.status2 {
+        opacity: 0;
+    }
+    .navbar.status3 {
+        position: sticky;
+        opacity: 1;
     }
 }
