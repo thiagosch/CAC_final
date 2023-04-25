@@ -1,0 +1,55 @@
+#welcome-box {
+    background: linear-gradient(180deg, #1a3749 25%, #516774 100%);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+#image_welcome {
+    max-width: 60%;
+}
+#welcome-box h1 {
+    font-size: 3rem;
+}
+#welcome-box p {
+    font-size: 1.05em;
+    margin-bottom: 1rem;
+
+}
+
+#welcome-box img {
+    margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+    #welcome-box {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        padding: 0 10%;
+    }
+    #primary_welcome {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    #secondary_welcome {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    #image_welcome {
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-row-start: 1;
+    }
+    #tertiary_welcome {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5%;
+    }
+}

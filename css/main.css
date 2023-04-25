@@ -1,0 +1,18 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary_section {
+    background-color: rgb(237, 242, 242);
+    padding: 1rem;
+    scroll-margin-top: 50px;
+}
+main > :nth-child(odd) {
+    background-color: #516774;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
