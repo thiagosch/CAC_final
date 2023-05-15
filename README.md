@@ -2,39 +2,54 @@
 
 # "Core web design" Website
 
+<br/>
+<br/>
+
 # links
 
-## __APIs y librerias__
+## APIs y librerias
 
 [![No Laborales api](https://img.shields.io/badge/API-No%20Laborables-4242b9)](https://pjnovas.gitbooks.io/no-laborables/content/feriados.html)
 [![Google Iframe](https://img.shields.io/badge/Iframe-Google%20maps-4242b9)](https://developers.google.com/maps/documentation/embed/get-started)
 [![animate](https://img.shields.io/badge/Libreria-animate-4242b9)](https://animate.style/)
 [![fontawesome](https://img.shields.io/badge/Libreria-fontawesome-4242b9)](https://fontawesome.com/)
 
-## __integrantes__
+## integrantes
 
 [![ema](https://img.shields.io/badge/EmaFullStack-Emanuel-4242b9)](https://github.com/EmaFullStack/)
 [![santiago](https://img.shields.io/badge/thiagosch-Santiago-4242b9)](https://github.com/thiagosch)
 
+
+<br/>
+<br/>
+
 # __Introducción__
 
+<p>
+
 Este es el repositorio del sitio web de Core Web Design, una página web diseñada para el curso _codo a codo 2023_ (PYTHON-FRONT END) en el que hemos creado un sitio web que muestra las habilidades en diseño y desarrollo web que hemos adquirido.
+
+</p>
+
+
+<br/>
+<br/>
 
 # __Como trabajamos__
 
 En este proyecto, hemos desarrollado un sitio web completo, centrado en un single page website.
 
-## __animaciones y transiciones__
+## animaciones y transiciones
 
 1. Utilizamos la libreria $\color{Tan}{animate.css}$ para agregar una animación al titulo y descripcion del sitio.
 2. Creamos una transicion a mediante css al desplegar la navbar en mobile
 3. Utilizamos la pseudo clase :hover para añadir efecto de elevacion en las tarjetas de presentacion del servicio y empleados.
 
-## __Integracion de API__
+## Integracion de API
 
 Utilizamos la api $\color{Tan}{No}$ $\color{Tan}{laborales}$ para obtener informacion acerca de los feriados nacionales y asi poder informar al usuario los dias de semana en los que la empresa no estará abierta al publico.
 
-## __Validacion Formulario__
+## Validacion Formulario
 
 La validacion del formulario tiene 3 componentes
 
