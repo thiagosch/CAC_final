@@ -1,0 +1,11 @@
+Página de vehiculos de construcción tipo CAT
+
+
+Página de Login/ Inicio de session sola, nada más.
+Página carga productos, modificación/ creación de categorias.
+Página para Administrador que le permita crear usuarios.
+
+
+Dos cuentas: 
+Administradores (permite crear usuario), 
+Usuario_normal (carga de productos, pedido stock)
